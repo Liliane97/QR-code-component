@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D5E1EF;
+  }
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card-qr{
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    border:0px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom:40px ;
+  }
+
+  .qr-code{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+  }
+ 
+  .description{
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 25px;
+    
+  }
+
+  h1{
+    font-size: 22px;
+    width: 256px;
+    text-align: center;
+    color:#1f314f ;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 5px;
+  }
+
+  p{
+    font-size: 15px;
+    text-align: center;
+    width: 256px;
+    margin-top:10px;
+    color:#7d889e ;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+  }
+  .attribution a {
+     color: hsl(228, 45%, 44%); 
+  }
